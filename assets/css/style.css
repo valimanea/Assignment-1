@@ -1,0 +1,150 @@
+* {
+    /* Apply to all items in the file */
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    /* Define de background color for the body section */
+    background-color: #d9dcd6;
+}
+
+header {
+    /* Define de header attributes */
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+h1 {
+    /* Define de h1 attributes */
+    display: inline-block;
+    font-size: 48px;
+}
+
+h1 .seo {
+    /* Define a separete .seo class for h1 */
+    color: #d9dcd6;
+}
+
+header nav {
+    /* Define de navigation bar attributes */
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+header nav ul li{
+    /* Define de list attrbibutes of the navigation bar */
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 25px;
+}
+
+
+a {
+    /* Define the anchor attributes */
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    /* Define the paragraph attributes */
+    font-size: 16px;
+}
+
+.main-image {
+    /* Define the main image link and format */
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+main {
+    /* Define the main section attributes */
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+aside {
+    /* Define the side bar attributes */
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+.benefit {
+    /* Define the .benefit class to cover all the benefits */
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+h3 {
+    /* Define de h3 attributes */
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit img{
+    /* Define the image attributes of the .benefit class */
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.content {
+    /* Define the attributes of the .content class*/
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.content img {
+    /* Define the image attributes of the .content class */
+    max-height: 200px;
+}
+
+h2 {
+    /* Define de h2 attributes */
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+footer {
+    /* Define de foother attributes */
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+footer h2 {
+    /* Define de h2 attributes when inside a foother */
+    font-size: 20px;
+}
